@@ -2,6 +2,7 @@ import jwt from 'jsonwebtoken'
 import User from "../models/users.models.js";
 import { v2 as cloudinary } from 'cloudinary';
 import bcrypt from "bcrypt";
+import fs from "fs";
 
 // Clodinary Config
 
